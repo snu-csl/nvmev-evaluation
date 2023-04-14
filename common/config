@@ -1,0 +1,19 @@
+# vim: filetype=sh
+DB_PASSWD="EXAMPLE_PASSWD"
+
+MYSQL_USER="EXAMPLE_USER"
+MYSQL_PASSWD=$DB_PASSWD
+MYSQL_SOCK="/var/run/mysqld/mysqld.sock"
+
+PGSQL_USER="EXAMPLE_USER"
+PGSQL_PASSWD=$DB_PASSWD
+
+DB_SYSBENCH="sysbench"
+DB_TPCC="tpcc1200"
+DB_TPCH="tpch"
+
+JAVA_HOME="/usr/lib/jvm/default-java"
+
+if [ -z $DEV ]; then
+	DEV=nvme3n1
+fi

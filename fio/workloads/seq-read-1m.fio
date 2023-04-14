@@ -1,0 +1,9 @@
+[global]
+filesize=127g
+buffered=0
+runtime=600
+
+[seq-read]
+filename=${DEV}
+rw=read
+bs=1m

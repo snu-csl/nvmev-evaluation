@@ -1,0 +1,9 @@
+[global]
+filesize=127g
+buffered=0
+runtime=600
+
+[seq-write]
+filename=${DEV}
+rw=write
+bs=1m

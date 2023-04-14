@@ -1,0 +1,10 @@
+[global]
+filesize=127g
+buffered=0
+runtime=600
+
+[rand-read]
+filename=${DEV}
+rw=randread
+random_distribution=random
+bs=4k

@@ -1,0 +1,12 @@
+[submodule "rocksdb/benchmark"]
+	path = rocksdb/benchmark
+	url = git@github.com:facebook/rocksdb.git
+[submodule "ycsb/benchmark"]
+	path = ycsb/benchmark
+	url = git@github.com:brianfrankcooper/YCSB.git
+[submodule "linkbench/benchmark"]
+	path = linkbench/benchmark
+	url = https://github.com/facebookarchive/linkbench
+[submodule "tpch/benchmark/tpch-tools"]
+	path = tpch/benchmark/tpch-tools
+	url = git@github.com:snu-csl/tpch-tools

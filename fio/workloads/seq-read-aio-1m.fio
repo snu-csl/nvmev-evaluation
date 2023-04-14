@@ -1,0 +1,14 @@
+[global]
+filesize=127g
+buffered=0
+runtime=600
+
+ioengine=libaio
+numjobs=${JOBS}
+iodepth=${DEPTH}
+group_reporting
+
+[seq-read]
+filename=${DEV}
+rw=read
+bs=1m
