@@ -11,7 +11,7 @@ if len(sys.argv) == 2 and sys.argv[1] == "max":
     io_unit_shift = 15
 else:
     if len(sys.argv) < 4:
-        print("Usage: %s [Read latency] [Write latency] [Read target bandwidth] {Write target bandwidth}" % (sys.argv[0]))
+        print("Usage: %s [Read latency (us)] [Write latency (us)] [Read target bandwidth (MB/s)] {Write target bandwidth (MB/s)}" % (sys.argv[0]))
         sys.exit(1)
 
     target_latency = [ float(sys.argv[1]), float(sys.argv[2]) ]
